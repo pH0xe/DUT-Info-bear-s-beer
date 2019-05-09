@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Bear's beer</title>
+  <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="../css/main.css" type="text/css" rel="stylesheet">
+  <link href="../css/modal.css" type="text/css" rel="stylesheet">
+  <link href="../css/nav.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- POPUP ON LOAD PAGE -->
+  <div id="modal">
+    <div class="modalconent">
+      <h2>WARNING !</h2>
+      <hr>
+      <p>Excessive drinking is dangerous for the health. Alcoholic beverages should be consumed with moderation.</p>
+      <hr>
+      <button id="button">Close</button>
+    </div>
+  </div>
+  <!-- POPUP ON LOAD PAGE -->
+
+  <!-- NAVIGATION BAR -->
+  <nav>
+    <ul>
+      <li><img src="../img/logo.png" alt="logo"></li>
+      <li>
+        <h2>Bear's beer</h2>
+      </li>
+      <li><a href="main.html" class="active">Home</a></li>
+      <li><a href="shop.html" class="">Shop</a></li>
+      <li><a href="contact.html" class="">Contact</a></li>
+    </ul>
+  </nav>
+  <!-- NAVIGATION BAR -->
+
+  <main>
+    <!-- ABOVE THE HEAD -->
+    <article class="above_head">
+      <img src="../img/logo.png" alt="logo">
+      <h1>Bear's beer, only organic beer</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+      <div><a href="shop.html">Explore the store</a></div>
+    </article>
+    <!-- ABOVE THE HEAD -->
+
+    <hr>
+    <div class="container_main">
+
+      <!-- VERTICAL NAVIGATION -->
+      <article class="vert_nav">
+        <h3>News !</h3>
+        <ul>
+          <li><a href="beer/beer1.html">beer1</a></li>
+          <li><a href="beer/beer2.html">beer2</a></li>
+          <li><a href="beer/beer3.html">beer3</a></li>
+          <li><a href="beer/beer4.html">beer4</a></li>
+          <li><a href="beer/beer5.html">beer5</a></li>
+        </ul>
+      </article>
+      <!-- VERTICAL NAVIGATION -->
+
+      <!-- PRESENTATION BEER -->
+      <article class="pres_beer">
+        <img src="../img/beer.png" alt="a beer">
+        <h2>Bear's beer</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+          aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </article>
+      <!-- PRESENTATION BEER -->
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="foo_social">
+      <h5>Social networks : </h5>
+      <a href="https://www.instagram.com/whatsinmycrous/?hl=fr"><i class="fa fa-facebook-official" style="font-size:36px"></i></a>
+      <a href="https://www.instagram.com/whatsinmycrous/?hl=fr"><i class="fa fa-instagram" style="font-size:36px"></i></a>
+      <a href="https://www.instagram.com/whatsinmycrous/?hl=fr"><i class="	fa fa-snapchat" style="font-size:36px"></i></a>
+      <a href="https://www.instagram.com/whatsinmycrous/?hl=fr"><i class="	fa fa-twitter" style="font-size:36px"></i></a>
+    </div>
+
+    <div class="contact_us">
+      <h5>Contact us :</h5>
+      <p> <img src="../img/tel.png" alt=""> : 0100 000 0000 </br>
+        <img src="../img/env.png" alt=""> : contact@bearsbeer.com</p>
+    </div>
+
+    <div class="logo">
+      <img src="../img/logo.png" alt="">
+    </div>
+
+  </footer>
+  <!-- FOOTER -->
+
+
+
+
+  <!-- SCRIPT POPUP ON LOAD PAGE -->
+  <script type="text/javascript">
+    window.onload = function() {
+      document.getElementById('button').onclick = function() {
+        document.getElementById('modal').style.display = "none"
+      };
+    };
+  </script>
+  <!-- SCRIPT POPUP ON LOAD PAGE -->
+</body>
+
+</html>

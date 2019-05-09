@@ -1,0 +1,316 @@
+body{
+  background-color: #F0EBE0;
+  font-family: "Gill Sans", sans-serif;
+  padding-top: 75px;
+}
+
+main{
+  width: 90%;
+  margin-left: auto;
+  margin-right : auto;
+}
+
+hr{
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.container_main{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ABOVE THE HEAD STYLE */
+.above_head h1{
+  text-align: center;
+  font-size: 3em;
+}
+
+.above_head img{
+  float: left;
+  width: 300px;
+}
+
+.above_head p{
+  font-size: 1.2em;
+}
+
+.above_head div{
+  clear: both;
+  text-align: center;
+  height: 60px;
+}
+
+.above_head a{
+  text-decoration: none;
+  color : black;
+  background-color: #B98521;
+  padding: 1em 3em;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+
+.above_head a:hover{
+  background-color: #D29C33;
+}
+/* ABOVE THE HEAD STYLE */
+
+
+/* VERTICAL NAVIGATION STYLE */
+.vert_nav {
+  border : 1px solid #EAA011;
+  border-radius: 10px;
+  width: 18%;
+  margin-top: 2%;
+  align-self: flex-start;
+}
+
+.vert_nav h3{
+  text-align: center;
+  font-size: 2em;
+}
+
+.vert_nav ul{
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.vert_nav a{
+  text-decoration: none;
+  background-color: #F6D493;
+  color : black;
+  width: 100%;
+  display : block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top:  1px solid #EAA011;
+}
+
+.vert_nav li:last-child a{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.vert_nav a:hover{
+  background-color:  #F0CB82;
+}
+/* VERTICAL NAVIGATION STYLE */
+
+/* PRESENTATION BEER STYLE*/
+.pres_beer{
+  width : 70%;
+  margin-right: 5%;
+  border : 1px solid #EAA011;
+  border-radius: 10px;
+}
+
+.pres_beer img{
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.pres_beer h2{
+  text-align: center;
+}
+
+.pres_beer p{
+  text-align: justify;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+/* PRESENTATION BEER STYLE*/
+
+/* SHOP STYLE */
+.shop_contain{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.shop_contain article{
+  width: 40%;
+  margin-bottom: 2%;
+  border : 1px solid #EAA011;
+  border-radius: 10px;
+  background-color: #eee9dd;
+}
+
+.shop_contain img{
+  display: block;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.shop_contain h3{
+  font-size: 1.5em;
+  text-align: center;
+  color: black;
+}
+
+.shop_contain a{
+  text-decoration: none;
+}
+
+.shop_contain_bu{
+  display: flex;
+}
+
+.shop_contain_bu a{
+  display: block;
+  text-align: center;
+  background-color: #F6D493;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em 3em;
+  margin-bottom: 4%;
+  border-radius: 10px;
+  color: black;
+}
+
+.shop_contain_bu a:first-child{
+  margin-right: 2%;
+}
+
+.shop_contain_bu a:last-child{
+  margin-left: 2%;
+}
+
+.shop_contain a:hover{
+  background-color: #F0CB82;
+}
+/* SHOP STYLE */
+
+/* CONTACT STYLE */
+.main_contact h1{
+  text-align: center;
+}
+/* CONTACT STYLE */
+
+/* BEER PAGE STYLE */
+.contanier_main_beer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.art_beer{
+  width: 65%;
+  margin-right: 5%;
+  margin-top: 2%;
+  border : 1px solid #EAA011;
+  border-radius: 10px;
+  background-color: #eee9dd;
+  padding: 2% 4%;
+}
+
+.art_beer h1{
+  text-align: center;
+  font-size: 5em;
+  margin-bottom: 2%;
+  margin-top: 3%;
+}
+
+.art_beer img{
+  width: 100%;
+}
+
+.art_beer a{
+  text-decoration: none;
+  text-align: center;
+  background-color: #F6D493;
+  color : black;
+  width: 20%;
+  display : block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: auto;
+  border-radius: 10px;
+}
+.art_beer a:hover{
+  background-color:  #F0CB82;
+}
+/* BEER PAGE STYLE */
+
+/* CONTACT FORM STYLE */
+.form_contact label{
+  display: inline-block;
+  width: 10%;
+  font-size: 1.1em;
+}
+
+.form_contact input{
+  padding: 1%;
+  margin-bottom: 1%;
+  font-size: 1.1em;
+}
+
+.form_contact textarea{
+  resize: none;
+  width: 100%;
+}
+
+.form_contact button{
+  width: 7%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  margin: 1%;
+}
+/* CONTACT FORM STYLE */
+
+/* FOOTER STYLE */
+footer{
+  background-color: #F6D493;
+  position: absolute;
+  left: 0;
+  width: 90%;
+  margin-top: 3%;
+  padding-bottom: 1.5%;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+footer div{
+  width: 20%;
+}
+
+footer h5{
+  font-size: 1.5em;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+footer i{ /*facebook*/
+  color: #1A5276;
+}
+
+footer a:nth-child(3) i { /*instagram*/
+  color : purple;
+}
+
+footer a:nth-child(4) i { /*snap*/
+  color : yellow;
+}
+
+footer a:nth-child(5) i { /*twitter*/
+  color : lightblue;
+}
+
+footer img{
+  width: 7%;
+}
+
+footer .logo img{
+  width: 45%;
+}
+
+footer .logo{
+  text-align: center;
+}
+/* FOOTER STYLE */
