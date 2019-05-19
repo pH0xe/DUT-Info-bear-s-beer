@@ -21,14 +21,71 @@
         <h2>Bear's beer</h2>
       </li>
       <li><a href="main.html" class="">Home</a></li>
-      <li><a href="shop.html" class="">Shop</a></li>
+      <li><a href="shop.html" class="active">Shop</a></li>
       <li><a href="contact.html" class="">Contact</a></li>
     </ul>
   </nav>
   <!-- NAVIGATION BAR -->
 
   <main>
+    <form class="form_contact" action="thanks_order.html" method="post">
+      <fieldset>
+        <legend>Informations : </legend>
 
+        <label for="FN">First Name * : </label>
+        <input type="text" name="FN" id="FN" value="" placeholder="First Name" required> <br>
+
+        <label for="name">Name * : </label>
+        <input type="text" name="name" id="name" value="" placeholder="Name" required> <br>
+
+        <label for="phone">Phone number * : </label>
+        <input type="number" name="" id="phone" value="" placeholder="0123 456 7890" required> <br>
+
+        <label for="mail">Email * : </label>
+        <input type="email" name=""  id="mail" value="" placeholder="Email" required><br>
+
+        <label for="address">Address * : </label>
+        <input type="text" name="" id="address" value="" placeholder="Address" required><br>
+
+        <label for="city">City * : </label>
+        <input type="text" name="" id="city" value="" placeholder="City" required><br>
+
+        <label for="country">Country * : </label>
+        <input type="text" name="" id="country" value="" placeholder="Country" required><br>
+      </fieldset>
+
+      <fieldset>
+        <legend>Payment : </legend>
+        <label for="card">Card numbers * : </label>
+        <input type="number" name="" id="card" value="" placeholder="Card numbers" required><br>
+
+        <label for="card">Last three digit * : </label>
+        <input type="number" name="" id="card" value="" placeholder="on the back of the card" required><br>
+
+      </fieldset>
+
+      <fieldset class="beer_choice">
+        <legend>Beer choice : </legend>
+        <input type="radio" id="1L" name="beer" value="" required>
+        <label for="1L">1 liter</label>
+
+        <input type="radio" id="6b" name="beer" value="">
+        <label for="6b">6 bottle of 50cl</label>
+
+        <input type="radio" id="5L" name="beer" value="">
+        <label for="5L">5 liter</label>
+
+
+
+      </fieldset>
+
+      <div class="form_contact_container">
+        <button type="submit" name="button">Send</button>
+        <button type="reset" name="button">Reset</button>
+      </div>
+
+
+    </form>
 
 
 

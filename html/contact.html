@@ -28,7 +28,7 @@
   <!-- NAVIGATION BAR -->
 
   <main class="main_contact">
-    <h1>If you want to contact us please us this form.</h1>
+    <h1>If you want to contact us please use this form.</h1>
 
     <form class="form_contact" action="thanks_contact.html" method="post">
       <fieldset>
@@ -44,7 +44,7 @@
         <input type="tel" name="" id="phone" value="" placeholder="0123 456 7890"> <br>
 
         <label for="mail">Email * : </label>
-        <input type="email" name=""  id="mail" value="" placeholder="Email">
+        <input type="email" name=""  id="mail" value="" placeholder="Email" required>
       </fieldset>
 
       <fieldset>
@@ -52,8 +52,11 @@
         <textarea name="name" placeholder="your message " rows="20" cols="100"></textarea>
       </fieldset>
 
-      <button type="submit" name="button">Send</button>
-      <button type="reset" name="button">Reset</button>
+      <div class="form_contact_container">
+        <button type="submit" name="button">Send</button>
+        <button type="reset" name="button">Reset</button>
+      </div>
+
 
     </form>
 
